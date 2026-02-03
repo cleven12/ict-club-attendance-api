@@ -1,4 +1,4 @@
-# MWECAU ICT CLUB ATTENDANCE SYSTEM
+# ICT CLUB ATTENDANCE SYSTEM
 
 <div align="center">
 
@@ -41,7 +41,7 @@
 
 ## WHAT IS THIS?
 
-This is the **MWECAU ICT Club's Digital Attendance System**. Instead of signing paper sheets every Friday, you can now mark your attendance using your phone or computer in just a few taps!
+This is the **ICT Club's Digital Attendance System**. Instead of signing paper sheets every session, you can now mark your attendance using your phone or computer in just a few taps!
 
 **No more:**
 - Waiting in line to sign paper sheets
@@ -192,7 +192,7 @@ pip3 --version
 
 ```bash
 # Clone the repository
-git clone https://github.com/mwecauictclub/ict-club-attendance-api.git
+git clone https://github.com/your-organization/ict-club-attendance-api.git
 
 # Navigate to project directory
 cd ict-club-attendance-api
@@ -254,7 +254,7 @@ This is the most important part! Follow carefully.
 
 1. **Go to Google Cloud Console**:
    - Visit: https://console.cloud.google.com/
-   - Sign in with your Gmail account (preferably MWECAU ICT Club email)
+   - Sign in with your Gmail account (preferably ICT Club email)
 
 2. **Accept Terms** (first-time only):
    - Read and check ☑ "I agree to the Terms of Service"
@@ -265,7 +265,7 @@ This is the most important part! Follow carefully.
    - Click **"NEW PROJECT"**
    - Fill in:
      ```
-     Project name: MWECAU-ICT-Attendance
+     Project name: ICT-Club-Attendance
      Organization: No organization
      Location: No organization
      ```
@@ -273,7 +273,7 @@ This is the most important part! Follow carefully.
    - Wait ~30 seconds
 
 4. **Verify Project is Selected**:
-   - Look at top bar, should show: "MWECAU-ICT-Attendance"
+   - Look at top bar, should show: "ICT-Club-Attendance"
    - If not, click dropdown and select your project
 
 ---
@@ -311,9 +311,9 @@ This is the most important part! Follow carefully.
 
 3. **Fill in Service Account Details**:
    ```
-   Service account name: mwecau-ict-attendance-sa
-   Service account ID: (auto-generated, e.g., mwecau-ict-attendance-sa@xxx.iam.gserviceaccount.com)
-   Description: Service account for MWECAU ICT Club attendance system
+   Service account name: ict-club-attendance-sa
+   Service account ID: (auto-generated, e.g., ict-club-attendance-sa@xxx.iam.gserviceaccount.com)
+   Description: Service account for ICT Club attendance system
    ```
    - Click **"CREATE AND CONTINUE"**
 
@@ -330,7 +330,7 @@ This is the most important part! Follow carefully.
 1. **Find Your Service Account**:
    - On the "Credentials" page
    - Scroll down to **"Service Accounts"** section
-   - You'll see your service account email (e.g., `mwecau-ict-attendance-sa@xxx.iam.gserviceaccount.com`)
+   - You'll see your service account email (e.g., `ict-club-attendance-sa@xxx.iam.gserviceaccount.com`)
    - **Click on the email**
 
 2. **Create Key**:
@@ -341,7 +341,7 @@ This is the most important part! Follow carefully.
 3. **Download JSON Key**:
    - Select **"JSON"** format
    - Click **"CREATE"**
-   - A JSON file will download automatically (e.g., `mwecau-ict-attendance-xxxxxx.json`)
+   - A JSON file will download automatically (e.g., `ict-club-attendance-xxxxxx.json`)
 
 4. **Save the File**:
    - **Rename it to**: `credentials.json`
@@ -349,7 +349,7 @@ This is the most important part! Follow carefully.
    - **⚠️ IMPORTANT**: Keep this file SECRET! Never share it or upload to GitHub!
 
 5. **Copy Service Account Email**:
-   - Copy the service account email (e.g., `mwecau-ict-attendance-sa@xxx.iam.gserviceaccount.com`)
+   - Copy the service account email (e.g., `ict-club-attendance-sa@xxx.iam.gserviceaccount.com`)
    - You'll need this in the next step!
 
 ---
@@ -364,7 +364,7 @@ This is the most important part! Follow carefully.
 
 2. **Create New Spreadsheet**:
    - Click **"+ Blank"** to create a new sheet
-   - **Rename it**: "MWECAU ICT Club Attendance" (click top-left "Untitled spreadsheet")
+   - **Rename it**: "ICT Club Attendance" (click top-left "Untitled spreadsheet")
 
 3. **Create "Members" Sheet**:
    - The first sheet is already created
@@ -401,7 +401,7 @@ This is CRITICAL! The system can't access the sheets without this.
 
 2. **Add Service Account**:
    - Paste your **service account email** (from Step 5.4.5)
-   - Example: `mwecau-ict-attendance-sa@xxx.iam.gserviceaccount.com`
+   - Example: `ict-club-attendance-sa@xxx.iam.gserviceaccount.com`
 
 3. **Set Permission**:
    - Change permission to: **"Editor"**
@@ -576,7 +576,7 @@ Now let's deploy to the internet so everyone can access it!
 
 2. **Clone Repository**:
    ```bash
-   git clone https://github.com/mwecauictclub/ict-club-attendance-api.git
+   git clone https://github.com/your-organization/ict-club-attendance-api.git
    cd ict-club-attendance-api
    ```
 
@@ -876,43 +876,43 @@ Planned features for upcoming versions:
 
 ### Club Contact
 
-- **Email**: mwecauictclub@gmail.com
-- **Location**: Mwenge Catholic University, Moshi, Tanzania
-- **Meeting Time**: Every Friday, 1:30 PM - 3:30 PM
+- **Email**: ictclub@example.com
+- **Location**: Your Institution
+- **Meeting Time**: Check with your club schedule
 
 ---
 
 ## 🙏 ACKNOWLEDGMENTS
 
 Special thanks to:
-- **MWECAU ICT Club Leaders** - For guidance and support
+- **ICT Club Leaders** - For guidance and support
 - **Club Members** - For embracing digital transformation
 - **Faculty Advisor** - For approving this initiative
-- **Department Heads** - For coordinating weekly sessions
+- **Department Heads** - For coordinating sessions
 - **Open Source Community** - For Flask, Python, and amazing tools
 
 ---
 
 ## LICENSE
 
-This project is developed for MWECAU ICT Club. See [LICENSE](LICENSE) file for details.
+This project is developed for ICT Club. See [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-**🎓 MWECAU ICT CLUB**
+**🎓 ICT CLUB**
 
 *Empowering students through technology*
 
 ---
 
-**Built with ❤️ by MWECAU ICT Club Development Team**
+**Built with ❤️ by ICT Club Development Team**
 
-*Version 1.0 | Launched January 30, 2026*
+*Version 1.0*
 
 ---
 
-[📖 View Documentation](docs/) • [🐛 Report Bug](https://github.com/mwecauictclub/ict-club-attendance-api/issues) • [💡 Request Feature](https://github.com/mwecauictclub/ict-club-attendance-api/issues)
+[📖 View Documentation](docs/) • [🐛 Report Bug](https://github.com/your-organization/ict-club-attendance-api/issues) • [💡 Request Feature](https://github.com/your-organization/ict-club-attendance-api/issues)
 
 </div>
